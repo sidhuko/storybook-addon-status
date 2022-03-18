@@ -33,6 +33,10 @@
     "url": "https://github.com/etchteam/storybook-addon-status/issues"
   },
   "homepage": "https://github.com/etchteam/storybook-addon-status#readme",
+  "peerDependencies: {
+    "react": "*",
+    "react-dom": "*",
+  },
   "dependencies": {
     "@storybook/addons": "^6.2.9",
     "@storybook/api": "^6.2.9",
@@ -40,10 +44,8 @@
     "@storybook/components": "^6.2.9",
     "@storybook/core-events": "^6.2.9",
     "@storybook/theming": "^6.2.9",
-    "core-js": "^3.0.1",
     "lodash": "^4.17.21",
     "memoizerific": "^1.11.3",
-    "react": "^16.8.3",
     "util-deprecate": "^1.0.2"
   },
   "devDependencies": {
@@ -77,7 +79,10 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "npmlog": "4.1.2",
     "shelljs": "0.8.5",
-    "typescript": "3.9.5"
+    "typescript": "3.9.5",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "core-js": "^3.0.1"
   },
   "publishConfig": {
     "access": "public"
